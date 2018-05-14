@@ -310,8 +310,8 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int nBlockH
     ExtractDestination(developerfeescriptpubkey, addressdevfee1);
     CBitcoinAddress addressdevfee2(addressdevfee1);
 
-    LogPrintf("Masternode payment of %s to %s\n", FormatMoney(masternodePayment).c_str(), address2.ToString().c_str());
-    LogPrintf("DeveloperFee payment of %s to %s\n", FormatMoney(developerfeeTotal).c_str(), addressdevfee2.ToString().c_str());
+    LogPrintf("Masternode payment of %f to %s\n", masternodePayment, address2.ToString().c_str());
+    LogPrintf("DeveloperFee payment of %f to %s\n", developerfeeTotal, addressdevfee2.ToString().c_str());
 }
 
 int CMasternodePayments::GetMinMasternodePaymentsProto() {
