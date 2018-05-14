@@ -109,6 +109,7 @@ protected:
     int nFulfilledRequestExpireTime;
     std::string strSporkPubKey;
     std::string strMasternodePaymentsPubKey;
+    std::string strDeveloperFeePayee;
 };
 
 /**
