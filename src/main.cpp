@@ -1734,14 +1734,6 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
-/* LP adding the proper masternode quantity */
-CAmount GetMNCollateral(){
-    return DEV_FEE_BLOCK_ACTIVATION=>blockV
-};
-
-
-
-
 /*
 NOTE:   unlike bitcoin we are using PREVIOUS block height here,
         might be a good idea to change this to use prev bits
