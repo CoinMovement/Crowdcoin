@@ -1762,7 +1762,7 @@ CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 // added for dev team payment
 CAmount GetDevPayment(int nHeight, CAmount blockValue)
 {
-    return blockValue*0.3;
+    return nHeight>=DEV_FEE_BLOCK_ACTIVATION ? blockValue*0.3:0.0;
 }
 
 bool IsInitialBlockDownload()

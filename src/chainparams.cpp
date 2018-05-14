@@ -106,12 +106,14 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1502280000; // Aug 9th, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1533816000; // Aug 9th, 2018
+             strDeveloperFeePayee = "XGjLuh8mFrXwLGJjGJZfPK4rVQpahP4FP1";
 
-        /**
-         * The message start string is designed to be unlikely to occur in normal data.
-         * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
-         * a large 32-bit integer with any alignment.
-         */
+
+            /**
+             * The message start string is designed to be unlikely to occur in normal data.
+             * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
+             * a large 32-bit integer with any alignment.
+             */
         pchMessageStart[0] = 0x1a;
         pchMessageStart[1] = 0x4a;
         pchMessageStart[2] = 0x5a;
@@ -120,8 +122,10 @@ public:
         nDefaultPort = 12875;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
+        strDeveloperFeePayee = "CWLef6dVQnnEwMuPJfyRghF1QZUb5d2A3f";
 
-        genesis = CreateGenesisBlock(1511953200, 1811715, 0x1e0ffff0, 1, 50 * COIN);
+
+            genesis = CreateGenesisBlock(1511953200, 1811715, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000007db550074c6535ce41c2a6043d0afbc86f17f1762b06e2cd65d100f7b5f"));
         assert(genesis.hashMerkleRoot == uint256S("0x06bb68e5a31f7ec49812110b03e088006342bc3598b1d705f7ae7282b8eec4a8"));

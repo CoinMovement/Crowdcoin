@@ -31,6 +31,8 @@
 
 #include <boost/unordered_map.hpp>
 
+#define DEV_FEE_BLOCK_ACTIVATION 115000
+
 class CBlockIndex;
 class CBlockTreeDB;
 class CBloomFilter;
