@@ -32,6 +32,9 @@
 #include <boost/unordered_map.hpp>
 
 #define DEV_FEE_BLOCK_ACTIVATION 115000
+#define COLLATERAL_v1 1000
+#define COLLATERAL_v2 1500
+
 
 class CBlockIndex;
 class CBlockTreeDB;
@@ -45,6 +48,9 @@ class CValidationState;
 
 struct CNodeStateStats;
 struct LockPoints;
+
+/** Get actual collateral */
+CAmount GetMNCollateral();
 
 /** Default for accepting alerts from the P2P network. */
 static const bool DEFAULT_ALERTS = true;

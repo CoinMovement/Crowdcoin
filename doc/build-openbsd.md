@@ -156,7 +156,7 @@ with many 'local symbol discarded' errors:
 According to similar reported errors this is a binutils (ld) issue in 2.15, the
 version installed by OpenBSD 5.7:
 
-- http://openbsd-archive.7691.n7.nabble.com/UPDATE-cppcheck-1-65-td248900.html
+- http://openbsd-archive.7691.n7.nabble.com/UPDATE-cppcheck-1-65-td2481400.html
 - https://llvm.org/bugs/show_bug.cgi?id=9758
 
 There is no known workaround for this.

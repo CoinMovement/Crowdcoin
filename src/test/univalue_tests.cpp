@@ -233,7 +233,7 @@ BOOST_AUTO_TEST_CASE(univalue_object)
     BOOST_CHECK(obj.pushKV(strKey, (double) 90.012));
 
     UniValue obj2(UniValue::VOBJ);
-    BOOST_CHECK(obj2.pushKV("cat1", 9000));
+    BOOST_CHECK(obj2.pushKV("cat1", 14000));
     BOOST_CHECK(obj2.pushKV("cat2", 12345));
 
     BOOST_CHECK(obj.pushKVs(obj2));
@@ -248,7 +248,7 @@ BOOST_AUTO_TEST_CASE(univalue_object)
     BOOST_CHECK_EQUAL(obj["time"].getValStr(), "3600");
     BOOST_CHECK_EQUAL(obj["calories"].getValStr(), "12");
     BOOST_CHECK_EQUAL(obj["temperature"].getValStr(), "90.012");
-    BOOST_CHECK_EQUAL(obj["cat1"].getValStr(), "9000");
+    BOOST_CHECK_EQUAL(obj["cat1"].getValStr(), "14000");
     BOOST_CHECK_EQUAL(obj["cat2"].getValStr(), "12345");
 
     BOOST_CHECK_EQUAL(obj["nyuknyuknyuk"].getValStr(), "");

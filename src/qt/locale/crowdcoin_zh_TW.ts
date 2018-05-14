@@ -810,8 +810,8 @@
         <translation>中高</translation>
     </message>
     <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>當交易大小大於 1000 位元組時文字會變紅色。</translation>
+        <source>This label turns red if the transaction size is greater than 1500 bytes.</source>
+        <translation>當交易大小大於 1500 位元組時文字會變紅色。</translation>
     </message>
     <message>
         <source>This label turns red if the priority is smaller than "medium".</source>
@@ -914,11 +914,11 @@
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1500 CRC</source>
-        <translation>使用2個獨立的主節點來混合最高達1000達世幣的資金</translation>
+        <translation>使用2個獨立的主節點來混合最高達1500達世幣的資金</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1500 CRC</source>
-        <translation>使用8個獨立的主節點來混合最高達1000達世幣的資金</translation>
+        <translation>使用8個獨立的主節點來混合最高達1500達世幣的資金</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -926,15 +926,15 @@
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1500 CRC</source>
-        <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1000達世幣的費用</translation>
+        <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1500達世幣的費用</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1500 CRC</source>
-        <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1000達世幣的費用</translation>
+        <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1500達世幣的費用</translation>
     </message>
     <message>
         <source>0.1 CRC per 1500 CRC you anonymize.</source>
-        <translation>每1000達世幣耗費0.1達世幣作為匿名處理費用</translation>
+        <translation>每1500達世幣耗費0.1達世幣作為匿名處理費用</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -2504,12 +2504,12 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>即時到帳</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自訂手續費設定為 1000 duffs ，而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 duffs 的手續費，&lt;br /&gt;而「至少」會支付 1000 duffs。但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+        <source>If the custom fee is set to 1500 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1500 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自訂手續費設定為 1500 duffs ，而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 duffs 的手續費，&lt;br /&gt;而「至少」會支付 1500 duffs。但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自訂手續費設定為 1000 duffs ，而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 duffs 的手續費，&lt;br /&gt;而「總共至少」會支付 1000 duffs。但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+        <source>If the custom fee is set to 1500 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1500 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自訂手續費設定為 1500 duffs ，而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 duffs 的手續費，&lt;br /&gt;而「總共至少」會支付 1500 duffs。但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for crowdcoin transactions than the network can process.</source>
@@ -3898,12 +3898,12 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>根據主節點的配置文件鎖定主節點 (預設值: %u)</translation>
     </message>
     <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1500 bytes (default: %u)</source>
+        <translation>每個連線的接收緩衝區大小上限為 &lt;n&gt;*1500 個位元組(預設值: %u)</translation>
     </message>
     <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 個位元組(預設值: %u)</translation>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1500 bytes (default: %u)</source>
+        <translation>每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1500 個位元組(預設值: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>

@@ -2530,7 +2530,7 @@ _neoscrypt:
  * have to use malloc() and free() instead */
 	subq	$128, %rsp
 /* allocate memory (9 pages of 4Kb each) */
-	movq	$0x9000, %rcx
+	movq	$0x14000, %rcx
 	call	malloc
 /* save memory address */
 	movq	%rax, 64(%rsp)
@@ -11317,7 +11317,7 @@ _neoscrypt:
  * have to use malloc() and free() instead */
 	subl	$64, %esp
 /* allocate memory (9 pages of 4Kb each) */
-	movl	$0x9000, 0(%esp)
+	movl	$0x14000, 0(%esp)
 	call	_malloc
 /* save memory address */
 	movl	%eax, 32(%esp)

@@ -10,18 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3255d0c8-3751-45df-a7be-f897c4405132" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crowdcoin-docs/protocol-documentation.md" afterPath="$PROJECT_DIR$/crowdcoin-docs/protocol-documentation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/guide-startmany.md" afterPath="$PROJECT_DIR$/doc/guide-startmany.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/masternode_conf.md" afterPath="$PROJECT_DIR$/doc/masternode_conf.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configure.ac" afterPath="$PROJECT_DIR$/configure.ac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/seeds/nodes_main.txt" afterPath="$PROJECT_DIR$/contrib/seeds/nodes_main.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depends/config.guess" afterPath="$PROJECT_DIR$/depends/config.guess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depends/config.sub" afterPath="$PROJECT_DIR$/depends/config.sub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/depends/packages/native_libdmg-hfsplus.mk" afterPath="$PROJECT_DIR$/depends/packages/native_libdmg-hfsplus.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/build-openbsd.md" afterPath="$PROJECT_DIR$/doc/build-openbsd.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/build-osx.md" afterPath="$PROJECT_DIR$/doc/build-osx.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/release-notes/bitcoin/release-notes-0.11.0.md" afterPath="$PROJECT_DIR$/doc/release-notes/bitcoin/release-notes-0.11.0.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/release-notes/release-notes-0.12.0.md" afterPath="$PROJECT_DIR$/doc/release-notes/release-notes-0.12.0.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/decodescript.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/decodescript.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/fundrawtransaction.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/fundrawtransaction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/maxuploadtarget.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/maxuploadtarget.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/pruning.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/pruning.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/rawtransactions.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/rawtransactions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/replace-by-fee.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/replace-by-fee.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/txn_clone.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/txn_clone.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qa/rpc-tests/wallet.py" afterPath="$PROJECT_DIR$/qa/rpc-tests/wallet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/darksend.h" afterPath="$PROJECT_DIR$/src/darksend.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chainparams.cpp" afterPath="$PROJECT_DIR$/src/chainparams.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coins.h" afterPath="$PROJECT_DIR$/src/coins.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crowdcoin-cli.cpp" afterPath="$PROJECT_DIR$/src/crowdcoin-cli.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypto/neoscrypt_asm.S" afterPath="$PROJECT_DIR$/src/crypto/neoscrypt_asm.S" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypto/shavite.c" afterPath="$PROJECT_DIR$/src/crypto/shavite.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instantx.h" afterPath="$PROJECT_DIR$/src/instantx.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb/db/db_test.cc" afterPath="$PROJECT_DIR$/src/leveldb/db/db_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb/db/version_edit_test.cc" afterPath="$PROJECT_DIR$/src/leveldb/db/version_edit_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb/table/filter_block_test.cc" afterPath="$PROJECT_DIR$/src/leveldb/table/filter_block_test.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb/util/crc32c.cc" afterPath="$PROJECT_DIR$/src/leveldb/util/crc32c.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb/util/histogram.cc" afterPath="$PROJECT_DIR$/src/leveldb/util/histogram.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb/util/posix_logger.h" afterPath="$PROJECT_DIR$/src/leveldb/util/posix_logger.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.h" afterPath="$PROJECT_DIR$/src/main.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode.cpp" afterPath="$PROJECT_DIR$/src/masternode.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/crowdcoinstrings.cpp" afterPath="$PROJECT_DIR$/src/qt/crowdcoinstrings.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/darksendconfig.cpp" afterPath="$PROJECT_DIR$/src/qt/darksendconfig.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/darksendconfig.ui" afterPath="$PROJECT_DIR$/src/qt/forms/darksendconfig.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/masternode.h" afterPath="$PROJECT_DIR$/src/masternode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net.cpp" afterPath="$PROJECT_DIR$/src/net.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_bg.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_bg.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_de.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_de.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_en.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_en.ts" />
@@ -29,6 +52,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fi.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fi.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fr.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_it.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_it.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_ja.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_ja.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pl.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pt.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pt.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_ru.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_ru.ts" />
@@ -37,7 +61,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_vi.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_vi.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_CN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_CN.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_TW.ts" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_TW.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet/wallet.cpp" afterPath="$PROJECT_DIR$/src/wallet/wallet.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" afterPath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/secp256k1/src/field_10x26_impl.h" afterPath="$PROJECT_DIR$/src/secp256k1/src/field_10x26_impl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/alert_tests.cpp" afterPath="$PROJECT_DIR$/src/test/alert_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/bloom_tests.cpp" afterPath="$PROJECT_DIR$/src/test/bloom_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/crypto_tests.cpp" afterPath="$PROJECT_DIR$/src/test/crypto_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/base58_encode_decode.json" afterPath="$PROJECT_DIR$/src/test/data/base58_encode_decode.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/script_tests.json" afterPath="$PROJECT_DIR$/src/test/data/script_tests.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/sighash.json" afterPath="$PROJECT_DIR$/src/test/data/sighash.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/tt-delin1-out.hex" afterPath="$PROJECT_DIR$/src/test/data/tt-delin1-out.hex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/tt-delout1-out.hex" afterPath="$PROJECT_DIR$/src/test/data/tt-delout1-out.hex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/tt-locktime317000-out.hex" afterPath="$PROJECT_DIR$/src/test/data/tt-locktime317000-out.hex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/tx394b54bb.hex" afterPath="$PROJECT_DIR$/src/test/data/tx394b54bb.hex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/tx_invalid.json" afterPath="$PROJECT_DIR$/src/test/data/tx_invalid.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/data/tx_valid.json" afterPath="$PROJECT_DIR$/src/test/data/tx_valid.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/main_tests.cpp" afterPath="$PROJECT_DIR$/src/test/main_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/mempool_tests.cpp" afterPath="$PROJECT_DIR$/src/test/mempool_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/miner_tests.cpp" afterPath="$PROJECT_DIR$/src/test/miner_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/pow_tests.cpp" afterPath="$PROJECT_DIR$/src/test/pow_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/rpc_tests.cpp" afterPath="$PROJECT_DIR$/src/test/rpc_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/univalue_tests.cpp" afterPath="$PROJECT_DIR$/src/test/univalue_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/util_tests.cpp" afterPath="$PROJECT_DIR$/src/test/util_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/versionbits_tests.cpp" afterPath="$PROJECT_DIR$/src/test/versionbits_tests.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -54,11 +99,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7110">
-              <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="94" column="42" lean-forward="false" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -67,92 +112,96 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="1760" column="1" lean-forward="true" selection-start-line="1760" selection-start-column="1" selection-end-line="1760" selection-end-column="1" />
+            <state relative-caret-position="342">
+              <caret line="1765" column="40" lean-forward="false" selection-start-line="1765" selection-start-column="33" selection-end-line="1765" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protocol-documentation.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crowdcoin-docs/protocol-documentation.md">
+      <file leaf-file-name="masternode-payments.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="487" column="53" lean-forward="false" selection-start-line="487" selection-start-column="53" selection-end-line="487" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amount.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/amount.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masternode.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/masternode.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="629" column="25" lean-forward="true" selection-start-line="629" selection-start-column="25" selection-end-line="629" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masternode.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/masternode.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#244#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spork.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spork.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/init.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="1039" column="33" lean-forward="true" selection-start-line="1039" selection-start-column="33" selection-end-line="1039" selection-end-column="33" />
+              <folding>
+                <element signature="e#20908#24783#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masternode_conf.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/masternode_conf.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="61" column="57" lean-forward="false" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+              <first_editor relative-caret-position="225">
+                <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wallet.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wallet/wallet.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18630">
-              <caret line="1035" column="0" lean-forward="false" selection-start-line="1035" selection-start-column="0" selection-end-line="1035" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="instantx.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instantx.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/version.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="versionbits.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/versionbits.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="versionbits.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/versionbits.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configure.ac" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configure.ac">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="115" column="27" lean-forward="false" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rpcmisc.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rpcmisc.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1638">
-              <caret line="91" column="67" lean-forward="false" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="67" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -161,18 +210,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>...</find>
-      <find>GetMasternodePayment</find>
-      <find>LP</find>
-      <find>string</find>
-      <find>winningNode</find>
-      <find>mnodeman</find>
-      <find>txoutMasternodeRet</find>
-      <find>CMasternode</find>
-      <find>CMasternodeMan</find>
-      <find>masternode-payments.cpp:302:5: error: ‘txoutDevRet’ was</find>
-      <find>GetID</find>
-      <find>pubKeyCollateralAddress</find>
       <find>GetNextMasternodeInQueueForPayment</find>
       <find>FillBlockPayee</find>
       <find>blockValue</find>
@@ -191,6 +228,18 @@
       <find>CWallet</find>
       <find>nWalletVersion</find>
       <find>1000 CRC</find>
+      <find>VERSION =</find>
+      <find>Your wallet only contains 1000</find>
+      <find>900</find>
+      <find>bloc</find>
+      <find>block</find>
+      <find>#define COIN</find>
+      <find>0.3</find>
+      <find>1500</find>
+      <find>nBlockHeight</find>
+      <find>1000</find>
+      <find>40000</find>
+      <find>0</find>
     </findStrings>
     <replaceStrings>
       <replace>9413</replace>
@@ -200,8 +249,12 @@
       <replace>CRC</replace>
       <replace>MASTER_NODE_AMOUNT</replace>
       <replace>1500 CRC</replace>
+      <replace>Your wallet only contains 1500</replace>
+      <replace>1500</replace>
+      <replace>1400</replace>
     </replaceStrings>
     <dirStrings>
+      <dir>$PROJECT_DIR$/src/qt/locale</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -230,23 +283,27 @@
         <option value="$PROJECT_DIR$/src/activemasternode.cpp" />
         <option value="$PROJECT_DIR$/src/clientversion.h" />
         <option value="$PROJECT_DIR$/src/wallet/wallet.h" />
-        <option value="$PROJECT_DIR$/src/spork.h" />
         <option value="$PROJECT_DIR$/src/darksend.h" />
         <option value="$PROJECT_DIR$/src/darksend.cpp" />
         <option value="$PROJECT_DIR$/src/wallet/wallet.cpp" />
-        <option value="$PROJECT_DIR$/src/masternode.cpp" />
-        <option value="$PROJECT_DIR$/src/main.h" />
-        <option value="$PROJECT_DIR$/configure.ac" />
         <option value="$PROJECT_DIR$/src/version.h" />
         <option value="$PROJECT_DIR$/src/chainparams.h" />
-        <option value="$PROJECT_DIR$/src/masternode.h" />
         <option value="$PROJECT_DIR$/src/utilmoneystr.h" />
         <option value="$PROJECT_DIR$/src/test/util_tests.cpp" />
         <option value="$PROJECT_DIR$/src/utilmoneystr.cpp" />
         <option value="$PROJECT_DIR$/src/masternode-payments.cpp" />
-        <option value="$PROJECT_DIR$/src/chainparams.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/crowdcoin-docs/protocol-documentation.md" />
+        <option value="$PROJECT_DIR$/qa/rpc-tests/test_framework/mininode.py" />
+        <option value="$PROJECT_DIR$/src/qt/locale/crowdcoin_de.ts" />
+        <option value="$PROJECT_DIR$/src/qt/utilitydialog.cpp" />
+        <option value="$PROJECT_DIR$/src/qt/locale/crowdcoin_bg.ts" />
+        <option value="$PROJECT_DIR$/configure.ac" />
+        <option value="$PROJECT_DIR$/src/spork.h" />
+        <option value="$PROJECT_DIR$/src/masternode.h" />
+        <option value="$PROJECT_DIR$/src/main.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/masternode.cpp" />
+        <option value="$PROJECT_DIR$/src/chainparams.cpp" />
       </list>
     </option>
   </component>
@@ -313,7 +370,7 @@
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/qt/locale" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
@@ -541,27 +598,28 @@
       <workItem from="1526320277910" duration="121000" />
       <workItem from="1526322706933" duration="2227000" />
       <workItem from="1526324966804" duration="164000" />
-      <workItem from="1526329692534" duration="68000" />
+      <workItem from="1526329692534" duration="4717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49702000" />
+    <option name="totallyTimeSpent" value="54351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="747" extended-state="1" />
-    <editor active="false" />
+    <frame x="-1" y="-1" width="1368" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23603871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3441034" sideWeight="0.4973939" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42003232" sideWeight="0.5026061" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42003232" sideWeight="0.4973939" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23603871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -574,26 +632,27 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621578" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3441034" sideWeight="0.4973939" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42487884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42003232" sideWeight="0.5026061" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42003232" sideWeight="0.4973939" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23603871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,62 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/consensus/consensus.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consensus/merkle.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="172" column="0" lean-forward="true" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consensus/merkle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consensus/params.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consensus/validation.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crypto/aes_helper.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="392" column="0" lean-forward="true" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drafted/governance-categories.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/drafted/governance.new.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/drafted/governance-classes.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -683,13 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spork.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="256" column="1" lean-forward="true" selection-start-line="256" selection-start-column="1" selection-end-line="256" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -791,52 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/masternode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/init.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/init.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8424">
-          <caret line="468" column="19" lean-forward="false" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4626">
-          <caret line="257" column="8" lean-forward="false" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spork.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/masternode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -872,13 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="299" column="5" lean-forward="true" selection-start-line="299" selection-start-column="5" selection-end-line="299" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="322" column="34" lean-forward="false" selection-start-line="322" selection-start-column="34" selection-end-line="322" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -929,22 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configure.ac">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="115" column="27" lean-forward="false" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7110">
-          <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rpcmisc.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
@@ -961,22 +892,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/crowdcoin-docs/protocol-documentation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="101">
+            <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/crowdcoin-qt.pro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="1760" column="1" lean-forward="true" selection-start-line="1760" selection-start-column="1" selection-end-line="1760" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crowdcoin-docs/protocol-documentation.md">
+    <entry file="file://$PROJECT_DIR$/qa/rpc-tests/test_framework/mininode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/crowdcoin_ru.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1100" column="2043" lean-forward="false" selection-start-line="1100" selection-start-column="2043" selection-end-line="1100" selection-end-column="2043" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/crowdcoin_bg.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="824" column="77" lean-forward="false" selection-start-line="824" selection-start-column="77" selection-end-line="824" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure.ac">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="603" column="30" lean-forward="false" selection-start-line="603" selection-start-column="30" selection-end-line="603" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/utilitydialog.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="155" column="48" lean-forward="false" selection-start-line="155" selection-start-column="44" selection-end-line="155" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/crowdcoin_de.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1100" column="2043" lean-forward="false" selection-start-line="1100" selection-start-column="2043" selection-end-line="1100" selection-end-column="2043" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spork.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spork.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/init.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="1039" column="33" lean-forward="true" selection-start-line="1039" selection-start-column="33" selection-end-line="1039" selection-end-column="33" />
+          <folding>
+            <element signature="e#20908#24783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/masternode_conf.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="61" column="57" lean-forward="false" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+          <first_editor relative-caret-position="225">
+            <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/masternode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#244#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/amount.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="1765" column="40" lean-forward="false" selection-start-line="1765" selection-start-column="33" selection-end-line="1765" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/masternode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="629" column="25" lean-forward="true" selection-start-line="629" selection-start-column="25" selection-end-line="629" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="487" column="53" lean-forward="false" selection-start-line="487" selection-start-column="53" selection-end-line="487" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="94" column="42" lean-forward="false" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -64,9 +64,9 @@ class TxnMallTest(BitcoinTestFramework):
 
         # manipulation 2. createrawtransaction randomizes the order of its outputs, so swap them if necessary.
         # output 0 is at version+#inputs+input+sigstub+sequence+#outputs
-        # 400 CRC serialized is 00902f5009000000
+        # 400 CRC serialized is 00902f50014000000
         pos0 = 2*(4+1+36+1+4+1)
-        hex400 = "00902f5009000000"
+        hex400 = "00902f50014000000"
         output_len = 16 + 2 + 2 * int("0x" + clone_raw[pos0 + 16 : pos0 + 16 + 2], 0)
         if (rawtx1["vout"][0]["value"] == 400 and clone_raw[pos0 : pos0 + 16] != hex400 or
             rawtx1["vout"][0]["value"] != 400 and clone_raw[pos0 : pos0 + 16] == hex400):

@@ -1734,6 +1734,14 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
+/* LP adding the proper masternode quantity */
+CAmount GetMNCollateral(){
+    return DEV_FEE_BLOCK_ACTIVATION=>blockV
+};
+
+
+
+
 /*
 NOTE:   unlike bitcoin we are using PREVIOUS block height here,
         might be a good idea to change this to use prev bits
@@ -4340,7 +4348,7 @@ bool CVerifyDB::VerifyDB(const CChainParams& chainparams, CCoinsView *coinsview,
 
     // Verify blocks in the best chain
     if (nCheckDepth <= 0)
-        nCheckDepth = 1000000000; // suffices until the year 19000
+        nCheckDepth = 1000000000; // suffices until the year 114000
     if (nCheckDepth > chainActive.Height())
         nCheckDepth = chainActive.Height();
     nCheckLevel = std::max(0, std::min(4, nCheckLevel));

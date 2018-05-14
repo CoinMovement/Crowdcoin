@@ -153,8 +153,8 @@ Each time the process is completed, it's called a \"round.\" Each round of Priva
 <li>This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, \
 your funds will already be anonymized. No additional waiting is required.</li> \
 </ol> <hr>\
-<b>IMPORTANT:</b> Your wallet only contains 1000 of these \"change addresses.\" Every time a mixing event happens, up to 9 of your addresses are used up. \
-This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. \
+<b>IMPORTANT:</b> Your wallet only contains 1500 of these \"change addresses.\" Every time a mixing event happens, up to 9 of your addresses are used up. \
+This means those 1000 addresses last for about 100 mixing events. When 1400 of them are used, your wallet must create more addresses. \
 It can only do this, however, if you have automatic backups enabled.<br> \
 Consequently, users who have backups disabled will also have PrivateSend disabled. <hr>\
 For more info see <a href=\"https://crowdcoincoin.atlassian.net/wiki/display/DOC/PrivateSend\">https://crowdcoincoin.atlassian.net/wiki/display/DOC/PrivateSend</a> \

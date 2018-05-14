@@ -16,6 +16,7 @@
 #include <boost/lexical_cast.hpp>
 
 
+
 CMasternode::CMasternode() :
     vin(),
     addr(),
@@ -624,7 +625,7 @@ bool CMasternodeBroadcast::CheckOutpoint(int& nDos)
             LogPrint("masternode", "CMasternodeBroadcast::CheckOutpoint -- Failed to find Masternode UTXO, masternode=%s\n", vin.prevout.ToStringShort());
             return false;
         }
-        if(coins.vout[vin.prevout.n].nValue != 1000 * COIN) {
+        if(coins.vout[vin.prevout.n].nValue != COLLATERAL_v2 * COIN ) {
             LogPrint("masternode", "CMasternodeBroadcast::CheckOutpoint -- Masternode UTXO should have 1500 CRC, masternode=%s\n", vin.prevout.ToStringShort());
             return false;
         }

@@ -601,7 +601,7 @@ if test x$use_reduce_exports = xyes; then
   AC_PREPROC_IFELSE([AC_LANG_PROGRAM([[
       @%:@include <boost/version.hpp>
     ]], [[
-      #if BOOST_VERSION >= 104900
+      #if BOOST_VERSION >= 1041400
       // Everything is okay
       #else
       #  error Boost version is too old

@@ -699,8 +699,8 @@ Adress: %4
         <translation>nej</translation>
     </message>
     <message>
-        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Denna etikett blir röd om transaktionsstorleken är större än 1000 bytes.</translation>
+        <source>This label turns red, if the transaction size is greater than 1500 bytes.</source>
+        <translation>Denna etikett blir röd om transaktionsstorleken är större än 1500 bytes.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>

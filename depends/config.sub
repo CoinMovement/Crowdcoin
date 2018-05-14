@@ -275,12 +275,12 @@ case $basic_machine in
 	| mips64 | mips64el \
 	| mips64octeon | mips64octeonel \
 	| mips64orion | mips64orionel \
-	| mips64r5900 | mips64r5900el \
+	| mips64r51400 | mips64r51400el \
 	| mips64vr | mips64vrel \
 	| mips64vr4100 | mips64vr4100el \
 	| mips64vr4300 | mips64vr4300el \
 	| mips64vr5000 | mips64vr5000el \
-	| mips64vr5900 | mips64vr5900el \
+	| mips64vr51400 | mips64vr51400el \
 	| mipsisa32 | mipsisa32el \
 	| mipsisa32r2 | mipsisa32r2el \
 	| mipsisa32r6 | mipsisa32r6el \
@@ -289,7 +289,7 @@ case $basic_machine in
 	| mipsisa64r6 | mipsisa64r6el \
 	| mipsisa64sb1 | mipsisa64sb1el \
 	| mipsisa64sr71k | mipsisa64sr71kel \
-	| mipsr5900 | mipsr5900el \
+	| mipsr51400 | mipsr51400el \
 	| mipstx39 | mipstx39el \
 	| mn10200 | mn10300 \
 	| moxie \
@@ -401,12 +401,12 @@ case $basic_machine in
 	| mips64-* | mips64el-* \
 	| mips64octeon-* | mips64octeonel-* \
 	| mips64orion-* | mips64orionel-* \
-	| mips64r5900-* | mips64r5900el-* \
+	| mips64r51400-* | mips64r51400el-* \
 	| mips64vr-* | mips64vrel-* \
 	| mips64vr4100-* | mips64vr4100el-* \
 	| mips64vr4300-* | mips64vr4300el-* \
 	| mips64vr5000-* | mips64vr5000el-* \
-	| mips64vr5900-* | mips64vr5900el-* \
+	| mips64vr51400-* | mips64vr51400el-* \
 	| mipsisa32-* | mipsisa32el-* \
 	| mipsisa32r2-* | mipsisa32r2el-* \
 	| mipsisa32r6-* | mipsisa32r6el-* \
@@ -415,7 +415,7 @@ case $basic_machine in
 	| mipsisa64r6-* | mipsisa64r6el-* \
 	| mipsisa64sb1-* | mipsisa64sb1el-* \
 	| mipsisa64sr71k-* | mipsisa64sr71kel-* \
-	| mipsr5900-* | mipsr5900el-* \
+	| mipsr51400-* | mipsr51400el-* \
 	| mipstx39-* | mipstx39el-* \
 	| mmix-* \
 	| mt-* \
@@ -877,7 +877,7 @@ case $basic_machine in
 		basic_machine=armv4l-rebel
 		os=-linux
 		;;
-	news | news700 | news800 | news900)
+	news | news700 | news800 | news1400)
 		basic_machine=m68k-sony
 		os=-newsos
 		;;

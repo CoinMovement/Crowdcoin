@@ -801,8 +801,8 @@ Endereço: %4
         <translation>não</translation>
     </message>
     <message>
-        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Este rótulo fica vermelho se o tamanho da transacção exceder 1000 bytes.</translation>
+        <source>This label turns red, if the transaction size is greater than 1500 bytes.</source>
+        <translation>Este rótulo fica vermelho se o tamanho da transacção exceder 1500 bytes.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
@@ -861,11 +861,11 @@ Endereço: %4
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1500 CRC</source>
-        <translation>Usar 2 masternodes distintos para misturar os fundos até 1000DRK</translation>
+        <translation>Usar 2 masternodes distintos para misturar os fundos até 1500DRK</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1500 CRC</source>
-        <translation>Usar 8 masternodes distintos para misturar os fundos até 1000DRK</translation>
+        <translation>Usar 8 masternodes distintos para misturar os fundos até 1500DRK</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -3375,7 +3375,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1500 CRC.</source>
-        <translation>Não foi possível localizar fundos Darksend não denominados suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
+        <translation>Não foi possível localizar fundos Darksend não denominados suficientes para esta transacção que não sejam igual a 1500DRK.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3574,8 +3574,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [host]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Continuamente limitar o número de transacções gratuitas por minuto a &lt;n&gt;*1000 bytes (default:%u)</translation>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1500 bytes per minute (default:%u)</source>
+        <translation>Continuamente limitar o número de transacções gratuitas por minuto a &lt;n&gt;*1500 bytes (default:%u)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
@@ -3639,7 +3639,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 1500 CRC.</source>
-        <translation>Não foi possível localizar fundos suficientes para esta transacção que não sejam igual a 1000DRK.</translation>
+        <translation>Não foi possível localizar fundos suficientes para esta transacção que não sejam igual a 1500DRK.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3884,12 +3884,12 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Manter no máximo &lt;n&gt; ligações a outros nós (omissão: %u)</translation>
     </message>
     <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Tamanho máximo da memória intermédia de recepção por ligação, &lt;n&gt;*1000 bytes (omissão: %u)</translation>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1500 bytes (default: %u)</source>
+        <translation>Tamanho máximo da memória intermédia de recepção por ligação, &lt;n&gt;*1500 bytes (omissão: %u)</translation>
     </message>
     <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Tamanho máximo da memória intermédia de envio por ligação, &lt;n&gt;*1000 bytes (omissão: %u)</translation>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1500 bytes (default: %u)</source>
+        <translation>Tamanho máximo da memória intermédia de envio por ligação, &lt;n&gt;*1500 bytes (omissão: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>

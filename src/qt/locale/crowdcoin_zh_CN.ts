@@ -805,8 +805,8 @@ Address: %4
         <translation>否</translation>
     </message>
     <message>
-        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>如果这笔交易大于1000字节，标签会变成红色。</translation>
+        <source>This label turns red, if the transaction size is greater than 1500 bytes.</source>
+        <translation>如果这笔交易大于1500字节，标签会变成红色。</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
@@ -865,11 +865,11 @@ Address: %4
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1500 CRC</source>
-        <translation>使用2个独立的主节点混合资金最多1000达世币</translation>
+        <translation>使用2个独立的主节点混合资金最多1500达世币</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1500 CRC</source>
-        <translation>使用8个独立的主节点混合资金最多1000达世币</translation>
+        <translation>使用8个独立的主节点混合资金最多1500达世币</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -877,15 +877,15 @@ Address: %4
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1500 CRC</source>
-        <translation>此选项为最快速度，需要支付0.025达世币/1000达世币的匿名处理费用。</translation>
+        <translation>此选项为最快速度，需要支付0.025达世币/1500达世币的匿名处理费用。</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1500 CRC</source>
-        <translation>此选项为一般速度，需要支付0.05达世币/1000达世币的匿名处理费用。</translation>
+        <translation>此选项为一般速度，需要支付0.05达世币/1500达世币的匿名处理费用。</translation>
     </message>
     <message>
         <source>0.1 CRC per 1500 CRC you anonymize.</source>
-        <translation>0.1达世币/1000达世币的匿名处理费用。</translation>
+        <translation>0.1达世币/1500达世币的匿名处理费用。</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -2277,15 +2277,15 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>最小化</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1500 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1500 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>
-如果自定手续费设定为1000 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"至少"会支付1000 duffs.
+如果自定手续费设定为1500 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"至少"会支付1500 duffs.
 但如果交易信息大于一千字节,那么两者都要支付千字节费用.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1500 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1500 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>
-如果自定手续费设定为1000 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"总共至少"会支付1000 duffs.
+如果自定手续费设定为1500 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"总共至少"会支付1500 duffs.
 但如果交易信息大于一千字节,那么两者都要支付千字节费用.</translation>
     </message>
     <message>

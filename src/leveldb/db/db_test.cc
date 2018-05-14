@@ -1295,7 +1295,7 @@ TEST(DBTest, OverlapInLevel0) {
     ASSERT_EQ("0,1,1", FilesPerLevel());
 
     // Make files spanning the following ranges in level-0:
-    //  files[0]  200 .. 900
+    //  files[0]  200 .. 1400
     //  files[1]  300 .. 500
     // Note that files are sorted by smallest key.
     ASSERT_OK(Put("300", "v300"));
@@ -1303,7 +1303,7 @@ TEST(DBTest, OverlapInLevel0) {
     dbfull()->TEST_CompactMemTable();
     ASSERT_OK(Put("200", "v200"));
     ASSERT_OK(Put("600", "v600"));
-    ASSERT_OK(Put("900", "v900"));
+    ASSERT_OK(Put("1400", "v1400"));
     dbfull()->TEST_CompactMemTable();
     ASSERT_EQ("2,1,1", FilesPerLevel());
 

@@ -608,7 +608,7 @@
 ["0x02 0x0600", "1", "MINIMALDATA", "OK"],
 ["0x02 0x0700", "1", "MINIMALDATA", "OK"],
 ["0x02 0x0800", "1", "MINIMALDATA", "OK"],
-["0x02 0x0900", "1", "MINIMALDATA", "OK"],
+["0x02 0x01400", "1", "MINIMALDATA", "OK"],
 ["0x02 0x0a00", "1", "MINIMALDATA", "OK"],
 ["0x02 0x0b00", "1", "MINIMALDATA", "OK"],
 ["0x02 0x0c00", "1", "MINIMALDATA", "OK"],

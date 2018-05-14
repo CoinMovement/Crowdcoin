@@ -50,7 +50,7 @@ BOOST_AUTO_TEST_CASE(get_next_work)
 //     SelectParams(CBaseChainParams::MAIN);
 //     const Consensus::Params& params = Params().GetConsensus();
 
-//     int64_t nLastRetargetTime = 1279008237; // Block #66528
+//     int64_t nLastRetargetTime = 12714008237; // Block #66528
 //     CBlockIndex pindexLast;
 //     pindexLast.nHeight = 68543;
 //     pindexLast.nTime = 1279297671;  // Block #68543

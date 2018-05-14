@@ -379,7 +379,7 @@ and are affected by this change:
 For example, the `scriptSig.asm` property of a transaction input that
 previously showed an assembly representation of:
 
-    304502207fa7a6d1e0ee81132a269ad84e68d695483745cde8b541e3bf630749894e342a022100c1f7ab20e13e22fb95281a870f3dcf38d782e53023ee313d741ad0cfbc0c509001 400000 OP_NOP2
+    304502207fa7a6d1e0ee81132a269ad84e68d695483745cde8b541e3bf630749894e342a022100c1f7ab20e13e22fb95281a870f3dcf38d782e53023ee313d741ad0cfbc0c5014001 400000 OP_NOP2
 
 now shows as:
 
@@ -709,7 +709,7 @@ git merge commit are mentioned.
 
 ### Tests and QA
 
-- #6305 `9005c91` build: comparison tool swap (Cory Fields)
+- #6305 `14005c91` build: comparison tool swap (Cory Fields)
 - #6318 `e307e13` build: comparison tool NPE fix (Cory Fields)
 - #6337 `0564c5b` Testing infrastructure: mocktime fixes (Gavin Andresen)
 - #6350 `60abba1` add unit tests for the decodescript rpc (mruddy)

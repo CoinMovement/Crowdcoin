@@ -51,7 +51,7 @@
  *    - height = 203998
  *
  *
- * Example: 0109044086ef97d5790061b01caab50f1b8e9c50a5057eb43c2d9563a4eebbd123008c988f1a4a4de2161e0f50aac7f17e7f9555caa486af3b
+ * Example: 0109044086ef97d57140061b01caab50f1b8e9c50a5057eb43c2d9563a4eebbd123008c988f1a4a4de2161e0f50aac7f17e7f9555caa486af3b
  *          <><><--><--------------------------------------------------><----------------------------------------------><---->
  *         /  \   \                     |                                                           |                     /
  *  version  code  unspentness       vout[4]                                                     vout[16]           height
@@ -60,7 +60,7 @@
  *  - code = 9 (coinbase, neither vout[0] or vout[1] are unspent,
  *                2 (1, +1 because both bit 1 and bit 2 are unset) non-zero bitvector bytes follow)
  *  - unspentness bitvector: bits 2 (0x04) and 14 (0x4000) are set, so vout[2+2] and vout[14+2] are unspent
- *  - vout[4]: 86ef97d5790061b01caab50f1b8e9c50a5057eb43c2d9563a4ee
+ *  - vout[4]: 86ef97d57140061b01caab50f1b8e9c50a5057eb43c2d9563a4ee
  *             * 86ef97d579: compact amount representation for 234925952 (2.35 BTC)
  *             * 00: special txout type pay-to-pubkey-hash
  *             * 61b01caab50f1b8e9c50a5057eb43c2d9563a4ee: address uint160

@@ -422,7 +422,7 @@ BOOST_AUTO_TEST_CASE(MempoolSizeLimitTest)
     pool.addUnchecked(tx4.GetHash(), entry.Fee(7000LL).FromTx(tx4, &pool));
     pool.addUnchecked(tx5.GetHash(), entry.Fee(1000LL).FromTx(tx5, &pool));
     pool.addUnchecked(tx6.GetHash(), entry.Fee(1100LL).FromTx(tx6, &pool));
-    pool.addUnchecked(tx7.GetHash(), entry.Fee(9000LL).FromTx(tx7, &pool));
+    pool.addUnchecked(tx7.GetHash(), entry.Fee(14000LL).FromTx(tx7, &pool));
 
     // we only require this remove, at max, 2 txn, because its not clear what we're really optimizing for aside from that
     pool.TrimToSize(pool.DynamicMemoryUsage() - 1);
@@ -432,7 +432,7 @@ BOOST_AUTO_TEST_CASE(MempoolSizeLimitTest)
 
     if (!pool.exists(tx5.GetHash()))
         pool.addUnchecked(tx5.GetHash(), entry.Fee(1000LL).FromTx(tx5, &pool));
-    pool.addUnchecked(tx7.GetHash(), entry.Fee(9000LL).FromTx(tx7, &pool));
+    pool.addUnchecked(tx7.GetHash(), entry.Fee(14000LL).FromTx(tx7, &pool));
 
     pool.TrimToSize(pool.DynamicMemoryUsage() / 2); // should maximize mempool size by only removing 5/7
     BOOST_CHECK(pool.exists(tx4.GetHash()));
@@ -441,7 +441,7 @@ BOOST_AUTO_TEST_CASE(MempoolSizeLimitTest)
     BOOST_CHECK(!pool.exists(tx7.GetHash()));
 
     pool.addUnchecked(tx5.GetHash(), entry.Fee(1000LL).FromTx(tx5, &pool));
-    pool.addUnchecked(tx7.GetHash(), entry.Fee(9000LL).FromTx(tx7, &pool));
+    pool.addUnchecked(tx7.GetHash(), entry.Fee(14000LL).FromTx(tx7, &pool));
 
     std::vector<CTransaction> vtx;
     std::list<CTransaction> conflicts;

@@ -26,7 +26,7 @@ public:
     int64_t BeginTime(const Consensus::Params& params) const { return TestTime(10000); }
     int64_t EndTime(const Consensus::Params& params) const { return TestTime(20000); }
     int Period(const Consensus::Params& params) const { return 1000; }
-    int Threshold(const Consensus::Params& params) const { return 900; }
+    int Threshold(const Consensus::Params& params) const { return 1400; }
     bool Condition(const CBlockIndex* pindex, const Consensus::Params& params) const { return (pindex->nVersion & 0x100); }
 
     ThresholdState GetStateFor(const CBlockIndex* pindexPrev) const { return AbstractThresholdConditionChecker::GetStateFor(pindexPrev, paramsDummy, cache); }
@@ -177,9 +177,9 @@ BOOST_AUTO_TEST_CASE(versionbits_test)
                            .Mine(1000, TestTime(10000) - 1, 0x101).TestDefined() // One second more and it would be defined
                            .Mine(2000, TestTime(10000), 0x101).TestStarted() // So that's what happens the next period
                            .Mine(2050, TestTime(10010), 0x200).TestStarted() // 50 old blocks
-                           .Mine(2950, TestTime(10020), 0x100).TestStarted() // 900 new blocks
+                           .Mine(2950, TestTime(10020), 0x100).TestStarted() // 1400 new blocks
                            .Mine(2999, TestTime(19999), 0x200).TestStarted() // 49 old blocks
-                           .Mine(3000, TestTime(29999), 0x200).TestLockedIn() // 1 old block (so 900 out of the past 1000)
+                           .Mine(3000, TestTime(29999), 0x200).TestLockedIn() // 1 old block (so 1400 out of the past 1000)
                            .Mine(3999, TestTime(30001), 0).TestLockedIn()
                            .Mine(4000, TestTime(30002), 0).TestActive()
                            .Mine(14333, TestTime(30003), 0).TestActive()

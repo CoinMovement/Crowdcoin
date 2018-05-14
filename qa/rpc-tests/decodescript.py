@@ -20,7 +20,7 @@ class DecodeScriptTest(BitcoinTestFramework):
         self.is_network_split = False
 
     def decodescript_script_sig(self):
-        signature = '304502207fa7a6d1e0ee81132a269ad84e68d695483745cde8b541e3bf630749894e342a022100c1f7ab20e13e22fb95281a870f3dcf38d782e53023ee313d741ad0cfbc0c509001'
+        signature = '304502207fa7a6d1e0ee81132a269ad84e68d695483745cde8b541e3bf630749894e342a022100c1f7ab20e13e22fb95281a870f3dcf38d782e53023ee313d741ad0cfbc0c5014001'
         push_signature = '48' + signature
         public_key = '03b0da749730dc9b4b1f4a14d6902877a92541f5368778853d9c4a0cb7802dcfb2'
         push_public_key = '21' + public_key
@@ -88,7 +88,7 @@ class DecodeScriptTest(BitcoinTestFramework):
         # use a signature look-alike here to make sure that we do not decode random data as a signature.
         # this matters if/when signature sighash decoding comes along.
         # would want to make sure that no such decoding takes place in this case.
-        signature_imposter = '48304502207fa7a6d1e0ee81132a269ad84e68d695483745cde8b541e3bf630749894e342a022100c1f7ab20e13e22fb95281a870f3dcf38d782e53023ee313d741ad0cfbc0c509001'
+        signature_imposter = '48304502207fa7a6d1e0ee81132a269ad84e68d695483745cde8b541e3bf630749894e342a022100c1f7ab20e13e22fb95281a870f3dcf38d782e53023ee313d741ad0cfbc0c5014001'
         # OP_RETURN <data>
         rpc_result = self.nodes[0].decodescript('6a' + signature_imposter)
         assert_equal('OP_RETURN ' + signature_imposter[2:], rpc_result['asm'])
