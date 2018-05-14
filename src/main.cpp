@@ -1757,7 +1757,7 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
 
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
-    return blockValue*0.4;
+    return nHeight>=DEV_FEE_BLOCK_ACTIVATION ? blockValue*0.3:0.blockValue*0.5;
 }
 // added for dev team payment
 CAmount GetDevPayment(int nHeight, CAmount blockValue)
