@@ -925,27 +925,27 @@
         <translation>Bitten wählen Sie eine Datenschutz-Stufe.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Benutze 2 separate Masternodes um bis zu 1000 CRC zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1500 CRC</source>
+        <translation>Benutze 2 separate Masternodes um bis zu 1500 CRC zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Benutze 8 separate Masternodes um bis zu 1000 CRC zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1500 CRC</source>
+        <translation>Benutze 8 separate Masternodes um bis zu 1500 CRC zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Benutze 16 separate Masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 CRC, um 1000 CRC zu anonymisieren</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1500 CRC</source>
+        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 CRC, um 1500 CRC zu anonymisieren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 CRC, um 1000 CRC zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1500 CRC</source>
+        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 CRC, um 1500 CRC zu anonymisieren</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
+        <source>0.1 CRC per 1500 CRC you anonymize.</source>
         <translation>0,1 CRC pro 1000 zu anonymisierende Crowdcoin.</translation>
     </message>
     <message>
@@ -3965,8 +3965,8 @@ Dies kann passieren, wenn einige Crowdcoin aus ihrer Wallet bereits ausgegeben w
         <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 CRC sind.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1500 CRC.</source>
+        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1500 CRC sind.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4490,8 +4490,8 @@ Crowdcoin Core wird heruntergefahren.</translation>
         <translation>Für diese Transaktion konnten nicht genug mit PrivateSend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit PrivateSend gestückelte Beträge gefunden werden, die ungleich 1000 CRC sind.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1500 CRC.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit PrivateSend gestückelte Beträge gefunden werden, die ungleich 1500 CRC sind.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

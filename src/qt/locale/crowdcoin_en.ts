@@ -1164,13 +1164,13 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Use 2 separate masternodes to mix funds up to 1000 CRC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1500 CRC</source>
+        <translation>Use 2 separate masternodes to mix funds up to 1500 CRC</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Use 8 separate masternodes to mix funds up to 1000 CRC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1500 CRC</source>
+        <translation>Use 8 separate masternodes to mix funds up to 1500 CRC</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1179,18 +1179,18 @@
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1500 CRC</source>
+        <translation>This option is the quickest and will cost about ~0.025 CRC to anonymize 1500 CRC</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1500 CRC</source>
+        <translation>This option is moderately fast and will cost about 0.05 CRC to anonymize 1500 CRC</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC per 1000 CRC you anonymize.</translation>
+        <source>0.1 CRC per 1500 CRC you anonymize.</source>
+        <translation>0.1 CRC per 1500 CRC you anonymize.</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -5076,8 +5076,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000 CRC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1500 CRC.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 1500 CRC.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5731,8 +5731,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 CRC.</source>
-        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 CRC.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1500 CRC.</source>
+        <translation>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1500 CRC.</translation>
     </message>
     <message>
         <location line="+6"/>
