@@ -299,7 +299,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int nBlockH
     txNew.vout[2].nValue = developerfeeTotal;
     txNew.vout[1].scriptPubKey = payee;
     txNew.vout[1].nValue = masternodePayment;
-    txNew.vout[0].nValue = blockValue - masternodePayment - developerfeeTotal;
+    txNew.vout[0].nValue -=  masternodePayment + developerfeeTotal;
 
 
     CTxDestination address1;
